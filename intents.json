@@ -1,0 +1,88 @@
+{"intents": [
+    {"tag": "greeting",
+     "patterns": ["Hi", "Hey", "Is anyone there?", "Hello", "Hay"],
+     "responses": ["Hello", "Hi", "Hi there"]
+    },
+    {"tag": "goodbye",
+     "patterns": ["Bye", "See you later", "Goodbye"],
+     "responses": ["See you later", "Have a nice day", "Bye! Come back again"]
+    },
+    {"tag": "thanks",
+     "patterns": ["Thanks", "Thank you", "That's helpful", "Thanks for the help"],
+     "responses": ["Happy to help!", "Any time!", "My pleasure", "You're most welcome!"]
+    },
+    {"tag": "howareyou",
+     "patterns": ["how are you?", "what's up?", "How's going?"],
+     "responses": ["I'm good, Thank you!"]
+    },
+    {"tag": "about",
+     "patterns": ["Who are you?", "What are you?", "Who you are?" ],
+     "responses": ["I.m Thala, your bot assistant", "I'm Thala, an Artificial Intelligent bot"]
+    },
+    {"tag": "name",
+    "patterns": ["what is your name", "what should I call you", "whats your name?"],
+    "responses": ["You can call me Thala.", "I'm Thala!", "Just call me as Thala"]
+    },
+    {"tag": "help",
+    "patterns": ["Could you help me?", "give me a hand please", "Can you help?", "What can you do for me?", "I need a support", "I need a help", "support me please"],
+    "responses": ["Tell me how can assist you", "Tell me your problem to assist you", "Yes Sure, How can I support you"]
+    },
+    {"tag": "ourcourses",
+    "patterns": ["What are the courses you offer?", "What are the training programs you provide?", "Which are the courses?", "What are the name of courses you provide?", "List of courses you provide"],
+    "responses": ["Machine Learing, Data Science, Scientific Python, ISS Coaacing Program", "Just go to our website and visit Training section"]
+    },
+    {"tag": "infoaboutml",
+    "patterns": ["can you provide information about machine learning course", "please tell me about machine learning course", "benifits of machine learning course","advatages of machine leaning course"],
+    "responses": ["Key Benifits:Learn Statistics and ML Concepts from Academic Experts,Real-world case studies to build industry context,Hands-on projects to enhance coding skills,Major Project to consolidate your learning,Program Structure: 3 Months Program,,100+ Hrs Virtual Classes,10+ Case Studies,5+ Webinars by Industry Experts,1 Major Project","You can visit our website and check training section for the course"]
+    },
+     {"tag": "priceofml",
+    "patterns": ["What is course fee of Machine learning course", "Machine learning course fee?", "fee of machine learning course"],
+    "responses": ["20000+GST"]
+    },
+     {"tag": "infoaboutds",
+    "patterns": ["can you provide information about Data science course", "please tell me about Data science course", "benifits of Data science course"],
+    "responses": ["Key Benefits:Learn Statistics , Machine Learning and Deep Learning Concepts from Academic Experts,Real-world case studies to build industry context,Hands-on projects to enhance coding skills,Major Project to consolidate Your Learning, Proram struture :4 Months Program,120+ Hrs Virtual Classes,12+ Case Studies,5+ Webinars by,Industry Experts,1 Major Project","You can visit our website and check training section for the course"]
+    },
+     {"tag": "priceofds",
+    "patterns": ["What is course fee of Machine learning course", "Machine learning course fee?", "fee of machine learning course"],
+    "responses": ["30000+GST"]
+    },
+     {"tag": "infoaboutsp",
+    "patterns": ["can you provide information about scientific python course", "please tell me about scientific python course", "benifits of scientific python course"],
+    "responses": ["Key Benefits:Learn OPP Concepts of Python,Enhance coding skills through Small Challenges,Use of Python for Computing and Visualization,Minor Project to consolidate Your Learning, Program structure:20+ Hrs Virtual Classes,3 Case Studies,1 Minor Project","You can visit our website and check training section for the course"]
+    },
+     {"tag": "priceofsp",
+    "patterns": ["What is course fee of Scientific python course", "Scientiic Python course fee?", "fee of Scientific Python course"],
+    "responses": ["5000+GST"]
+    },
+     {"tag": "infoaboutisscoachingprogram",
+    "patterns": ["can you provide information about ISS Coaching Program", "please tell me about ISS Coaching Program", "benifits of ISS Coaching Program"],
+    "responses": ["Key Benefits :Reinforce Concepts through Virtual Interactive Class,Weekly and Topic wise Tests,One-on-one guidance,Comprehensive monthly progress,Work on topics that need extra attention,Conceptual Understanding through MCQs,Practice Problems for STATISTICS I and II,Current affairs analysis updates,Discussions and updates based on News, Magazines and Reports,Extensive interview guidance from Experts and ISS Officers,Program Structure:Virtual Training Program,6 Month Tenure,250+ Hrs Training,Time : 8AM-9AM and 6:30PM-8:30PM (MON-SAT)","You can visit our website and check training section for the course"]
+    },
+     {"tag": "priceofiss",
+    "patterns": ["What is course fee of ISS Coaching Program", "ISS Coaching Program fee?", "fee of ISS Coaching Program"],
+    "responses": ["25000 +GST"]
+    },
+
+  {"tag": "datascience",
+    "patterns": ["What is data science", "Data science", "DS","about data science"],
+    "responses": ["Checkout link : https://en.wikipedia.org/wiki/Data_science"]
+    },
+    {"tag": "machinelearning",
+    "patterns": ["What is machine learning", "Machine Learing", "ML","about machine learning"],
+    "responses": ["Checkout link : https://en.wikipedia.org/wiki/Machine_learning"]
+    },
+     {"tag": "scientificpython",
+    "patterns": ["What is scientific python", "Scientific Python","about scientific python"],
+    "responses": ["Checkout link : https://en.wikipedia.org/wiki/ScientificPython"]
+    },
+    {"tag": "contactdetails",
+    "patterns": ["How can I contact you", "how can I reach at you?","provide me contact details"],
+    "responses": ["Mobile: (+91) - 8600373650,Mail: suresh.parit@thalamuslabs.ai","visit : https://thalamuslabs.ai/#contact_us"]
+    },
+      {"tag": "acknowledgment",
+    "patterns": ["ok", "okay","yup"],
+    "responses": ["ok","okay"]
+    }
+]
+}
